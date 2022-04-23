@@ -1,0 +1,66 @@
+/* div {
+    color: #f00;
+}
+
+#second {
+    color: green;
+}
+
+.element {
+    color: #ddd!important;
+}
+
+
+
+.wrapper .element {
+    color: #000;
+} */
+
+/* .element.big {
+    color: yellow;
+}
+
+#second.element {
+    color: aqua !important;
+}
+
+[type="email"] {
+    border: solid #f00 1px;
+}
+
+[class="element"] {
+    font-size: 30px;
+}
+
+section.content {
+} */
+
+.element {
+}
+.wrapper > .element {
+    border: solid 1px #000;
+}
+
+.menu li {
+    font-size: 16px;
+}
+
+.menu > li {
+    font-size: 30px;
+}
+.menu li li {
+    background: #ff0;
+}
+
+.wrapper .element + .element {
+    background: #000;
+}
+
+.test {
+    position: relative;
+}
+
+.test p ~ p {
+    color: #ddd;
+    /* position: inherit; */
+}
